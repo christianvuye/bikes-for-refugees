@@ -185,6 +185,18 @@ p {
 
 .article {
   margin-bottom: 1rem;
+  padding: 1rem;
+  border: 2px solid var(--grey-light);
+  border-radius: 4px;
+}
+
+.article-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.article-list .article {
+  flex: 1;
 }
 
 .article__title {
@@ -206,6 +218,7 @@ p {
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
+  flex-shrink: 0;
 }
 
 .article__read-more {
@@ -231,6 +244,7 @@ p {
 
 .facebook-link {
   color: var(--orange-dark);
+  align-self: flex-end;
 }
 
 /* Sidebar */
@@ -239,6 +253,12 @@ p {
   display: flex;
   flex-direction: column;
   min-width: 350px;
+}
+
+.sidebar .article {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 /* Footer */
