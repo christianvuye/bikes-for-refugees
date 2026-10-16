@@ -95,7 +95,22 @@ p {
 
 /* Buttons */
 
-  /* INSERT BUTTON STYLES HERE */
+.button {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--orange-dark);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: var(--orange-dark);
+  color: var(--white);
+}
+
+.button--secondary {
+  background-color: var(--white);
+  color: var(--orange-dark);
+}
 
 
 /* Content */
