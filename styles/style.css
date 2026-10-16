@@ -76,6 +76,11 @@ p {
   text-decoration: none;
 }
 
+.navigation__link:hover,
+.navigation__link:focus-visible {
+  color: var(--orange-dark);
+}
+
 
 /* Text styles */
 
@@ -110,6 +115,18 @@ p {
 .button--secondary {
   background-color: var(--white);
   color: var(--orange-dark);
+}
+
+.button--primary:hover,
+.button--primary:focus-visible {
+  background-color: var(--white);
+  color: var(--orange-dark);
+}
+
+.button--secondary:hover,
+.button--secondary:focus-visible {
+  background-color: var(--orange-dark);
+  color: var(--white);
 }
 
 
